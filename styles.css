@@ -1,0 +1,104 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Page Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9e6e4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #504d4b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.navbar a {
+    color:#d35400;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #d35400;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color:blueviolet;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    color: #555;
+}
+
+/* Menu Lists */
+.menu-section {
+    margin-bottom: 25px;
+}
+
+.menu-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.menu-list li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Contact Button */
+.contact-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #d35400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #b84300;
+}
+
+/* Responsive Navbar Inline */
+.navbar a {
+    display: inline-block;
+}
+
+/* Add some creativity: subtle hover effect for menu items */
+.menu-list li:hover {
+    background-color: #fef2e0;
+    padding-left: 5px;
+    border-left: 3px solid #d35400;
+    transition: 0.3s;
+}
